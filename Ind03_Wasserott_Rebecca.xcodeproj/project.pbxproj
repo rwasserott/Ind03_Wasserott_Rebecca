@@ -16,6 +16,7 @@
 		5A5B66D227CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B66D127CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaTests.swift */; };
 		5A5B66DC27CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B66DB27CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITests.swift */; };
 		5A5B66DE27CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B66DD27CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITestsLaunchTests.swift */; };
+		5A5B66EB27D00D010035CF54 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B66EA27D00D010035CF54 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5A5B66D727CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ind03_Wasserott_RebeccaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5B66DB27CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind03_Wasserott_RebeccaUITests.swift; sourceTree = "<group>"; };
 		5A5B66DD27CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind03_Wasserott_RebeccaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A5B66EA27D00D010035CF54 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = Ind03_Wasserott_Rebecca/TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		5A5B66AE27CFFB7A0035CF54 = {
 			isa = PBXGroup;
 			children = (
+				5A5B66EA27D00D010035CF54 /* TableViewController.swift */,
 				5A5B66B927CFFB7A0035CF54 /* Ind03_Wasserott_Rebecca */,
 				5A5B66D027CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaTests */,
 				5A5B66DA27CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITests */,
@@ -261,6 +264,7 @@
 				5A5B66BF27CFFB7A0035CF54 /* ViewController.swift in Sources */,
 				5A5B66BB27CFFB7A0035CF54 /* AppDelegate.swift in Sources */,
 				5A5B66BD27CFFB7A0035CF54 /* SceneDelegate.swift in Sources */,
+				5A5B66EB27D00D010035CF54 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
