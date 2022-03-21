@@ -17,6 +17,7 @@
 		5A5B66DC27CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B66DB27CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITests.swift */; };
 		5A5B66DE27CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B66DD27CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITestsLaunchTests.swift */; };
 		5A5B66EB27D00D010035CF54 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B66EA27D00D010035CF54 /* TableViewController.swift */; };
+		5A5B66ED27D176530035CF54 /* Second ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B66EC27D176530035CF54 /* Second ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5A5B66DB27CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind03_Wasserott_RebeccaUITests.swift; sourceTree = "<group>"; };
 		5A5B66DD27CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ind03_Wasserott_RebeccaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5A5B66EA27D00D010035CF54 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = Ind03_Wasserott_Rebecca/TableViewController.swift; sourceTree = "<group>"; };
+		5A5B66EC27D176530035CF54 /* Second ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Second ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5A5B66BC27CFFB7A0035CF54 /* SceneDelegate.swift */,
 				5A5B66BE27CFFB7A0035CF54 /* ViewController.swift */,
 				5A5B66C027CFFB7A0035CF54 /* Main.storyboard */,
+				5A5B66EC27D176530035CF54 /* Second ViewController.swift */,
 				5A5B66C327CFFB7C0035CF54 /* Assets.xcassets */,
 				5A5B66C527CFFB7C0035CF54 /* LaunchScreen.storyboard */,
 				5A5B66C827CFFB7C0035CF54 /* Info.plist */,
@@ -263,6 +266,7 @@
 			files = (
 				5A5B66BF27CFFB7A0035CF54 /* ViewController.swift in Sources */,
 				5A5B66BB27CFFB7A0035CF54 /* AppDelegate.swift in Sources */,
+				5A5B66ED27D176530035CF54 /* Second ViewController.swift in Sources */,
 				5A5B66BD27CFFB7A0035CF54 /* SceneDelegate.swift in Sources */,
 				5A5B66EB27D00D010035CF54 /* TableViewController.swift in Sources */,
 			);

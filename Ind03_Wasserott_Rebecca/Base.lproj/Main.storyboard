@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zEh-Zd-dOw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OyM-Wx-mkz">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -21,9 +21,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="120" y="68"/>
+            <point key="canvasLocation" x="-1606" y="80"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Main-->
         <scene sceneID="ez7-6T-hfW">
             <objects>
                 <tableViewController id="zEh-Zd-dOw" customClass="TableViewController" customModule="Ind03_Wasserott_Rebecca" customModuleProvider="target" sceneMemberID="viewController">
@@ -55,6 +55,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="crV-yy-MAS" kind="show" identifier="Segue_1" id="6kd-m4-KVO"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -62,13 +65,80 @@
                             <outlet property="delegate" destination="zEh-Zd-dOw" id="Et3-EE-IT9"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Main" id="Mcd-bm-2ko"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MbI-fs-NOz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="901" y="81"/>
+            <point key="canvasLocation" x="979.71014492753636" y="79.6875"/>
+        </scene>
+        <!--Second-->
+        <scene sceneID="7CU-Ry-l57">
+            <objects>
+                <viewController id="crV-yy-MAS" customClass="Second_ViewController" customModule="Ind03_Wasserott_Rebecca" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lkd-l3-ndZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alabama" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTe-2R-JDx">
+                                <rect key="frame" x="101" y="275" width="313" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alabama-Outline-Map-115x171" translatesAutoresizingMaskIntoConstraints="NO" id="61Y-qy-JW4">
+                                <rect key="frame" x="40" y="475" width="335" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="50,744" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJl-5J-nUi">
+                                <rect key="frame" x="118" y="734" width="279" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alabama-Flag-227x151" translatesAutoresizingMaskIntoConstraints="NO" id="YPJ-pd-FP5">
+                                <rect key="frame" x="70" y="108" width="274" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iSg-Je-T5b"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Second" id="MqA-dx-ygF"/>
+                    <connections>
+                        <outlet property="StateFlag" destination="YPJ-pd-FP5" id="vGr-my-t1l"/>
+                        <outlet property="StateMiles" destination="hJl-5J-nUi" id="XUg-ry-JRC"/>
+                        <outlet property="StateName" destination="oTe-2R-JDx" id="aoO-Db-X4I"/>
+                        <outlet property="StateOutline" destination="61Y-qy-JW4" id="nzs-fJ-2PR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lVQ-gY-kv6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1708.6956521739132" y="79.6875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9Xt-Ie-qnD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OyM-Wx-mkz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dOx-hG-L9S">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zEh-Zd-dOw" kind="relationship" relationship="rootViewController" id="dEh-K1-jmf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nRt-6X-yMb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.565217391304358" y="79.6875"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Alabama-Flag-227x151" width="227" height="151"/>
+        <image name="Alabama-Outline-Map-115x171" width="115" height="171"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
