@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A10F2BD27E9079D00B6411B /* References.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5A10F2BC27E9079D00B6411B /* References.pdf */; };
 		5A5B66BB27CFFB7A0035CF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B66BA27CFFB7A0035CF54 /* AppDelegate.swift */; };
 		5A5B66BD27CFFB7A0035CF54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B66BC27CFFB7A0035CF54 /* SceneDelegate.swift */; };
 		5A5B66BF27CFFB7A0035CF54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B66BE27CFFB7A0035CF54 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A10F2BC27E9079D00B6411B /* References.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = References.pdf; path = "../Mobile Apps/Ind03/References.pdf"; sourceTree = "<group>"; };
 		5A5B66B727CFFB7A0035CF54 /* Ind03_Wasserott_Rebecca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ind03_Wasserott_Rebecca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5B66BA27CFFB7A0035CF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A5B66BC27CFFB7A0035CF54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		5A5B66AE27CFFB7A0035CF54 = {
 			isa = PBXGroup;
 			children = (
+				5A10F2BC27E9079D00B6411B /* References.pdf */,
 				5A5B66EA27D00D010035CF54 /* TableViewController.swift */,
 				5A5B66B927CFFB7A0035CF54 /* Ind03_Wasserott_Rebecca */,
 				5A5B66D027CFFB7C0035CF54 /* Ind03_Wasserott_RebeccaTests */,
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A10F2BD27E9079D00B6411B /* References.pdf in Resources */,
 				5A5B66C727CFFB7C0035CF54 /* LaunchScreen.storyboard in Resources */,
 				5A5B66C427CFFB7C0035CF54 /* Assets.xcassets in Resources */,
 				5A5B66C227CFFB7A0035CF54 /* Main.storyboard in Resources */,
